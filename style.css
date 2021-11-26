@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(202, 238, 238);
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.weight{
+  margin: 10% 0%;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name{
+  background: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  font-size: 28px;
+  font-weight: bolder;
+  width: 60%;
+  text-align: left;
+ -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-text-fill-color: transparent;
+}
+#number{
+  height: 28px;
+  width: 250px;
+}
+.weight h2{
+  margin: 10px;
+}
+.weight form{
+  width:60%;
+  margin:1% 10% ;
+}
+.output{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  display: none;
+}
+.grams,.kgs,.ounces{
+  height: 30%;
+  box-shadow: 5px 5px 10px white;
+  margin: 3px 0px;
+  padding: 5px;
+  border: 1px solid black;
+
+}
